@@ -1,18 +1,40 @@
-# picture-upload-qn
+基于vue的七牛图片上传组件
 
-> picture upload qn
+[演示地址](https://heikaimu.github.io/picture-preview-example/code/dist/index.html#/)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+### 安装
+```
+npm i picture-upload-qn -S
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 引入
+test.vue
+```
+import PictureUploadQn from 'picture-upload-qn';
+<PictureUploadQn
+              :equipment="equipment"
+              :width="width"
+              :borderRadius="borderRadius"
+              :tokenUrl="tokenUrl"
+              :url="url"
+              :domain="domain"
+              :maxNum="maxNum"
+              :maxSize="maxSize"
+              :allowType="allowType"
+              @finishUploadAll="finishUploadAll"
+            ></PictureUploadQn>
+```
+
+### 参数解释
+equipment: 设备类型, 可选值为 pc，mobile；默认pc
+width:     小图尺寸
+
+表头 | 表头  
+
+------------- | ------------- 
+
+单元格内容 | 单元格内容 
+
+单元格内容l | 单元格内容
+
+----------
