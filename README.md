@@ -40,4 +40,6 @@ import PictureUploadQn from 'picture-upload-qn';
 | allowType        | 图片类型                  |                    | jpeg/jpg/png                     |  
 
 ### 派发事件
+| 函数名           | 描述                      |
+|------------------|--------------------------|
 | finishUploadAll  | 图片上传完的派发事件       |
