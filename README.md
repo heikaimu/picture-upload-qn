@@ -1,6 +1,6 @@
 基于vue的七牛图片上传组件
 
-[演示地址](https://heikaimu.github.io/picture-preview-example/code/dist/index.html#/)
+[演示地址](https://heikaimu.github.io/picture-upload-qn-code/dist/index.html#/)
 
 ### 安装
 ```
