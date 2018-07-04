@@ -29,6 +29,6 @@ import PictureUploadQn from 'picture-upload-qn';
 equipment: 设备类型, 可选值为 pc，mobile；默认pc
 width:     小图尺寸
 
-| Feature          | Notes                                                  | Docs         |
-|------------------|--------------------------------------------------------|--------------|
-| autocomplete     |                                                        |   [Docs][24] |                         
+| param            | describe                          | default      |
+|------------------|-----------------------------------|--------------|
+| equipment        | 用于切换pc和移动端的样式            | pc           |                         
