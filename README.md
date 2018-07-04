@@ -26,8 +26,6 @@ import PictureUploadQn from 'picture-upload-qn';
 ```
 
 ### 参数解释
-equipment: 设备类型, 可选值为 pc，mobile；默认pc
-width:     小图尺寸
 
 | 参数             | 描述                      | 可选值             | 默认值                            |
 |------------------|--------------------------|--------------------|----------------------------------|
@@ -40,4 +38,6 @@ width:     小图尺寸
 | maxNum           | 最大上传数                |                    | 9                                |      
 | maxSize          | 最大上传的图片尺寸         |                    | 1024 x 1024                      |  
 | allowType        | 图片类型                  |                    | jpeg/jpg/png                     |  
-| finishUploadAll  | 图片上传完的派发事件       |                    |                                  |  
+
+### 派发事件
+| finishUploadAll  | 图片上传完的派发事件       |
